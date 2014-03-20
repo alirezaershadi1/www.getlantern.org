@@ -1,0 +1,27 @@
+# install homebrew if missing
+which brew || ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+
+# install git if missing
+which git || brew install git
+
+# clone the repo and cd into it
+git clone https://github.com/getlantern/www.getlantern.org.git
+cd www.getlantern.org
+
+# install npm if missing
+which npm || brew install npm
+
+# install required global node packages
+npm install -g grunt-cli bower
+
+# install required local node packages
+npm install
+
+# install required bower packages
+bower install
+
+# install compass if missing
+which compass || sudo gem install compass
+
+# start up the development web server
+grunt serve
