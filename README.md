@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # www.getlantern.org
 
 [![build status](https://secure.travis-ci.org/getlantern/www.getlantern.org.png)](https://travis-ci.org/getlantern/www.getlantern.org)
@@ -135,3 +136,11 @@ First make sure you have the Nodejitsu credentials for the lantern\_www user in
 https://github.com/getlantern/too-many-secrets checked out alongside this repo,
 and then run "grunt deploy". This will create a fresh build in the "dist"
 directory and then deploy it to Nodejitsu as well as S3.
+=======
+www.getlantern.org
+==================
+
+code powering getlantern.org
+
+
+>>>>>>> 4e6d0da683ef005b740af5cb6a7fef932b5ce36c
